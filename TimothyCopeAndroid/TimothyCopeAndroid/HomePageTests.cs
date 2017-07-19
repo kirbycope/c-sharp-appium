@@ -10,7 +10,7 @@ namespace TimothyCopeAndroid
         public void Example001()
         {
             // Take a screenshot
-            App.GetScreenshot();
+            App.Screenshot();
             // Assert: The logo element is not displayed
             Assert.IsFalse(App.HomePage.imgLogo.Displayed);
         }
